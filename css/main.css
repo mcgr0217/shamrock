@@ -1,0 +1,40 @@
+html {
+    box-sizing: border-box;
+    background: url(../images/415542_10151012931626172_2065066568_o.jpg) no-repeat center top fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    overflow-x: hidden;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+h2 {
+    text-align: center;
+    font-family: "Oswald", sans-serif;
+    font-weight: lighter;
+    letter-spacing: 2px;
+    text-decoration: none;
+    bottom: 30px;
+    padding: 0;
+}
+
+.about {
+    padding: 4rem;
+}
+
+.black {
+    padding: 2rem;
+    background-color: rgba(255,280,255,0.5);
+    margin: 0;
+    text-align: center;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: rgba(255,255,255,0.3);
+}
